@@ -1,4 +1,3 @@
-//#include <107-Arduino-MCP2515.h>
 #include <mcp_can.h>
 #include <SPI.h>
 #include <Wire.h>
@@ -13,7 +12,6 @@ char msgString[128]; // Array to store serial string
 #define CAN0_INT 2 // Set INT to pin 2
 MCP_CAN CAN0(10); // Set CS to pin 10
 
-#define SLAVE_ADDR 9
 
 
 // Define 8-byte data buses
