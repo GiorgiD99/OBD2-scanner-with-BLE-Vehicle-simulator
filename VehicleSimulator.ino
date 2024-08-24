@@ -1,5 +1,3 @@
-    //This Arduino UNO Sketch requires the Seeed CAN-BUS Shield Libraries
-    //https://github.com/yexiaobo-seeedstudio/CAN_BUS_Shield
     #include <SPI.h>
     #include <mcp_can.h>
   
